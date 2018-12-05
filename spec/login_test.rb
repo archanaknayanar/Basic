@@ -22,8 +22,8 @@ describe 'Logintest' do
         Dashboard = app
         .NavigateToApp
         .navigateToLoginForm
-        .EnterEmail('qatesting+employeeplan@tintup.com')
-        .EnterPassword('welcome')
+        .EnterEmail('xxxx@tintup.com')
+        .EnterPassword('xxx')
         .Submit
         .getTitle
 
